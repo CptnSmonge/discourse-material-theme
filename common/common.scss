@@ -8874,3 +8874,14 @@ div.badges .buttons {
   margin-bottom: 24px;
   text-align: inherit;
 }
+// alternating colours in list views
+.topic-list-item:nth-child(odd) {
+    background-color: #2C3539;
+}
+.topic-body{
+  min-width: 75%;
+}
+.user-signature img{
+  max-height: 200px;
+  max-width: 600px;
+}
